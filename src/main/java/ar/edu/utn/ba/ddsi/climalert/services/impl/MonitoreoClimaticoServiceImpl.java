@@ -56,7 +56,7 @@ public class MonitoreoClimaticoServiceImpl implements MonitoreoClimaticoService 
 
      public void enviarAlerta(RegistroClimatico registroClimatico){
          Notificacion notificacion = notificacionesFactory.crearAlertaClimatica(registroClimatico);
-         notificacionService.enviarNotificacion(notif  icacion);
+         notificacionService.enviarNotificacion(notificacion);
          registroClimatico.setAlertaEnviada(true);
          registroClimaticoRepository.save(registroClimatico);
      }
