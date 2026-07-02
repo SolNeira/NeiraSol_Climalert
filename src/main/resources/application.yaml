@@ -1,0 +1,17 @@
+rest-weather:
+  base-url: https://api.weatherapi.com/v1
+  ubicacion: Buenos Aires
+  api-key:
+
+spring:
+  mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username:
+    password:
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true

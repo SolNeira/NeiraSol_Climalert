@@ -1,0 +1,14 @@
+package ar.edu.utn.ba.ddsi.climalert.models.condicionAlerta;
+
+import ar.edu.utn.ba.ddsi.climalert.models.registroClimatico.RegistroClimatico;
+import org.springframework.stereotype.Component;
+
+@Component
+public class CondicionTemperaturaAlta implements CondicionDeAlerta{
+
+    public boolean evaluarCondicion(RegistroClimatico registroClimatico){
+
+        return registroClimatico.getTemperatura() > 35;
+
+    }
+}
