@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-//Como aun no tuvimos la oportunidad de ver persistencia de datos, hice un Reposito en memoria
+//Como aun no tuvimos la oportunidad de ver persistencia de datos, hice un Repositorio en memoria
 @Repository
 public class InMemoryRegistroClimaticoRepository implements RegistroClimaticoRepository {
 
