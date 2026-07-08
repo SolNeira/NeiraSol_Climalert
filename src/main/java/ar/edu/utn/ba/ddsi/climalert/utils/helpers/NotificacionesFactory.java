@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-//VER SI PASAR A OTRO MODULE SERVICE-NOTIFICACIONES
 @Component
 public class NotificacionesFactory {
 
