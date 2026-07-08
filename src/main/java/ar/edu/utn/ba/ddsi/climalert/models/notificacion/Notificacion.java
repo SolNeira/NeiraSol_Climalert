@@ -5,7 +5,6 @@ import lombok.Data;
 
 import java.util.List;
 
-//VER SI PASAR A OTRO MODULE SERVICE-NOTIFICACIONES
 @Data
 @AllArgsConstructor
 public class Notificacion {
