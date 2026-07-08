@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 
-//CAMBIAR NOMBRE A MAPPERCLIMAUBICACION
 @Component
 public class MapperRegistroClimatico {
 
